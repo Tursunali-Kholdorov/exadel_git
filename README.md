@@ -1,1 +1,1 @@
-# exadel_git
+# Task 1: GIT
