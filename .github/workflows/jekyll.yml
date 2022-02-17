@@ -8,7 +8,7 @@ on:
 
 env:
   DEPLOY_VER: ${{ github.sha }}
-  MONTH: "January"
+  MONTH: "September"
   DAY_OF_THE_MONTH: "20"
   YEAR: "2022" 
   FAVORITE_DAY_OF_WEEK: ${{ secrets.FAVORITE_DAY_OF_WEEK }}
