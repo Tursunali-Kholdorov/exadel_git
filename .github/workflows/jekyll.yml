@@ -23,7 +23,7 @@ jobs:
     - name: Listing current dir files and folder
       run: for i in $(ls .); do echo $i; done
     - name: Print content of Log file
-      run: cat log.txt
+      run: cat Task1/log.txt
     - name: Print DEPLOY_VER variable
       run: echo "Hello from $DEPLOY_VER commit"
 
@@ -36,4 +36,9 @@ jobs:
       run: echo $DAY_OF_THE_MONTH
     - name: Print System Date
       run: date
-
+    - name: Print Variables content
+      run: echo -e "Day - $DAY_OF_THE_MONTH\nMonth - $MONTH\nYear - $YEAR"
+    - name: Print my favorite day of week
+      run: echo "My favorite day of week is $FAVORITE_DAY_OF_WEEK"
+    - name: We are getting *** becouse of
+      run: echo "Actions Secrets is used for hiding datas. Secrets will not be available during execution."
