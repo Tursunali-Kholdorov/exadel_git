@@ -36,5 +36,4 @@ jobs:
       run: echo $DAY_OF_THE_MONTH
     - name: Print System Date
       run: date
-"jekyll.yml"
 
